@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "target": "ES2022",
+        "outDir": "dist",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "lib": ["ES2022", "ESNext"],
+        "skipLibCheck": true,
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "verbatimModuleSyntax": true,
+        "moduleDetection": "force",
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "removeComments": true,
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "erasableSyntaxOnly": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true
+    },
+    "files": ["index.ts"]
+}
